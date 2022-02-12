@@ -11,8 +11,8 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/SuraBotStats",
-    "repository": "https://github.com/SRTheProgrammer/SuraVCStream",
+    "website": "https://t.me/santhuvc",
+    "repository": "https://github.com/SANTHOSHPODILI/santhosh-podili.git",
     "success_url": "https://t.me/santhu_music_bot",
     "env": {
         "API_ID": {
