@@ -56,7 +56,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""🧐 **ᴡᴇʟᴄᴏᴍᴇ {message.from_user.mention()}🧐 **(https://te.legra.ph/file/28f95b221efbefede9988.jpg)!**\n
-💟 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓] (https://t.me/santhu_music_bot)!**
+💟 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) **ɴᴇɴᴜ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ 💚 ɴᴀɴᴜ ɢʀᴏᴜᴘ ʟᴏ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ ᴍᴀɴᴄʜɪ ᴀᴜᴅɪᴏ ᴀɴᴅ ᴠɪᴅᴇᴏ sᴏɴɢs ᴋᴏsᴀᴍ ᴇᴅʜɪɴᴀ ᴋᴀᴠᴀʟᴀ ᴀɴɪ ᴋɪɴᴅʜᴀ (ʙᴀsɪᴄ ɢᴜɪᴅᴇ ʀᴀ ɴɪʙʙᴀ) ᴇ ʙᴜᴛᴛᴏɴ ᴄʟɪᴄᴋ ᴄʜᴇʏᴀɴᴅɪ 😁 ɴᴀɴᴜ ᴅᴇᴘʟᴏʏ ᴄʜᴇʏsɪɴᴅʜɪ [sᴀɴᴛʜᴜ 💓](https://t.me/santhu_music_bot)!**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -114,7 +114,7 @@ async def alive(c: Client, message: Message):
         ]
     )
 
-    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, ɪᴀᴍ {BOT_NAME}**\n\n🧑🏼‍💻 ᴏᴡɴᴇʀ ɴɪʙʙᴀ 😂: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n👾 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n🔥 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n🐍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n✨ ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n🆙 ᴜᴘᴛɪᴍᴇ: `{uptime}`\n😊 ᴘᴏᴡᴇʀᴇᴅ ʙʏ: '[{GROUP_SUPPORT}](https://t.me/{GROUP_SUPPORT})'\n❤**Thanks for Adding me here, for playing video & music on your Group's video chat**"
+    alive = f"**ʜᴇʟʟᴏ {message.from_user.mention()}, ɪᴀᴍ {BOT_NAME}**\n\n😊 ᴏᴡɴᴇʀ ɴɪʙʙᴀ 😂: [{ALIVE_NAME}](https://t.me/{OWNER_NAME})\n😇 ʙᴏᴛ ᴠᴇʀsɪᴏɴ: `v{__version__}`\n😚 ᴘʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ: `{pyrover}`\n😍 ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ: `{__python_version__}`\n🥰 ᴘʏᴛɢᴄᴀʟʟs ᴠᴇʀsɪᴏɴ: `{pytover.__version__}`\n😘 ᴜᴘᴛɪᴍᴇ: `{uptime}`\n😊 ᴘᴏᴡᴇʀᴇᴅ ʙʏ: '[{GROUP_SUPPORT}](https://t.me/{GROUP_SUPPORT})'\n❤**ᴛʜᴀɴᴋs ғᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ʜᴇʀᴇ, ғᴏʀ ᴘʟᴀʏɪɴɢ ᴠɪᴅᴇᴏ & ᴍᴜsɪᴄ ᴏɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ's ᴠɪᴅᴇᴏ ᴄʜᴀᴛ [ᴘᴏᴡᴇʀᴇᴅ ʙʏ 😊](https://t.me/santhu_music_bot)**"
 
     await c.send_photo(
         chat_id,
